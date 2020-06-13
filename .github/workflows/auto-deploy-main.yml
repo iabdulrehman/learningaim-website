@@ -30,4 +30,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: Deploying website on surge
-      run: surge ./ learning-aim.surge.sh --token $ {{ secrets.TOKEN }}
+      run: surge ./ learning-aim.surge.sh --token ${{ secrets.TOKEN }}
